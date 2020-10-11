@@ -1,0 +1,4 @@
+select count(*) from dept;
+create table emp(emp_id int, emp_name varchar(100));
+select table_name from information_schema.tables where table_schema='payroll' and table_name='emp';
+create table test(c1 intt);
